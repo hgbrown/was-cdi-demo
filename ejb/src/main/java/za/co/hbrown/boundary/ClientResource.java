@@ -4,6 +4,7 @@ import za.co.hbrown.controller.ClientService;
 import za.co.hbrown.entity.Client;
 
 import javax.inject.Inject;
+import javax.inject.Named;
 import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.PathParam;
@@ -22,6 +23,7 @@ import javax.ws.rs.core.Response;
 public class ClientResource {
 
     @Inject
+//    @Named("foo")
     ClientService clientService;
 
     @GET
