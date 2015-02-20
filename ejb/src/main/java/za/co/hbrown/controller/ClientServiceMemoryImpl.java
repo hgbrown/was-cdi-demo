@@ -1,6 +1,7 @@
 package za.co.hbrown.controller;
 
 import za.co.hbrown.entity.Client;
+import za.co.hbrown.qualifiers.Production;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Stateless;
@@ -21,8 +22,7 @@ import java.util.Set;
  * @since 0.1201502191323
  */
 @Stateless
-//@Named("foo")
-//@Dependent
+@Production
 public class ClientServiceMemoryImpl implements ClientService {
 
     @Inject
