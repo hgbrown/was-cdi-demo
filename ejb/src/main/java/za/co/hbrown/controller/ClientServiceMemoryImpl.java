@@ -5,13 +5,9 @@ import za.co.hbrown.qualifiers.Production;
 
 import javax.annotation.PostConstruct;
 import javax.ejb.Stateless;
-import javax.enterprise.context.Dependent;
 import javax.enterprise.inject.spi.Bean;
 import javax.enterprise.inject.spi.BeanManager;
 import javax.inject.Inject;
-import javax.inject.Named;
-import java.lang.annotation.Annotation;
-import java.lang.reflect.Type;
 import java.util.Set;
 
 /**
